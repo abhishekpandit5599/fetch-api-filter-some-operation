@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+table {
+  width: 100vw;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+table th {
+  padding: 30px;
+  background-color: rgb(212, 225, 231);
+}
+
+table tr td {
+  text-align: center;
+  padding: 20px;
+}
+.Delivered {
+  color: rgb(75, 75, 238);
+  background-color: skyblue;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.Prepared {
+  color: rgb(236, 161, 47);
+  background-color: rgb(247, 235, 199);
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.Prepone {
+  color: rgb(236, 161, 47);
+  background-color: rgb(247, 235, 199);
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.Completed {
+  color: rgb(69, 243, 83);
+  background-color: rgb(232, 252, 235);
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.searching-box-div input {
+  padding: 5px 10px;
+  margin: 20px;
+  margin-bottom: 0px;
+  width: 35vw;
+}
+.header {
+  color: rgb(4, 171, 135);
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(202, 209, 208);
+}
+.placeicon {
+  font-family: fontawesome;
+}
+.color-gray {
+  color: gray;
+}
+.filter-div {
+  border: 2px solid gray;
+  display: inline-block;
+  float: right;
+  margin: 10px;
+  margin-right: 80px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.filter-div p {
+  display: inline-block;
+}
+ul {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: rgb(196, 187, 187);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/ed745f429d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Suphalaam Technologies DashBoard</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h4 id="total-order">All Orders </h4>
+    </div>
+
+    <div class="searching-box-div">
+        <input id="search" oninput="searchFunction()" class="placeicon" type="text" placeholder=" &#xf002;   Search">
+        <div class="filter-div" onclick="filterFunction()">
+            <i class="placeicon fa-lg color-gray fal fa-sort-amount-down"></i>
+            <p id="api-restart">Filter</p>
+            <ul>
+                <li id="Delivered" onclick="sortFunction(this.id)">Delivered</li>
+                <li id="Completed" onclick="sortFunction(this.id)">Completed</li>
+                <li id="Prepared" onclick="sortFunction(this.id)">Prepared</li>
+                <li onclick="sortDateFunction()">Sort Date</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <table id="table-data">
+            <tr class="heading-container">
+                <th>ORDER ID</th>
+                <th>CUSTOMER</th>
+                <th>ADDRESS</th>
+                <th>PRODUCT</th>
+                <th>DATE ORDER</th>
+                <th>STATUS</th>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>
